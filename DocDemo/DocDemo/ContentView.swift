@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @Binding var document: DocDemoDocument
 
-    var body: some View {
+    var body: some View {                                                                                   
         TextEditor(text: $document.text)
     }
 }
